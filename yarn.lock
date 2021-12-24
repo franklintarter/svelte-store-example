@@ -1488,6 +1488,16 @@ svelte-hmr@^0.14.7:
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.7.tgz#7fa8261c7b225d9409f0a86f3b9ea5c3ca6f6607"
   integrity sha512-pDrzgcWSoMaK6AJkBWkmgIsecW0GChxYZSZieIYfCP0v2oPyx2CYU/zm7TBIcjLVUPP714WxmViE9Thht4etog==
 
+svelte-lazy-image-loader@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/svelte-lazy-image-loader/-/svelte-lazy-image-loader-1.0.4.tgz#bf7d1b8ef64d3b9774ff36872b680902b04504e1"
+  integrity sha512-q4vPb4uBmzBYwtGeHe/h7RWhWWKORFODBvBX+t3w045udZ3P3njGtIoYJMCDYAqu0oPRpBA1wguPU9ZugtZ9ag==
+
+svelte-loading-spinners@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/svelte-loading-spinners/-/svelte-loading-spinners-0.1.7.tgz#3fa6fa0ef67ab635773bf20b07d0b071debbadaa"
+  integrity sha512-EKCId1DjVL2RSUVJJsvtNcqQHox03XIgh4xh/4p7r6ST7d8mut6INY9/LqK4A17PFU64+3quZmqiSfOlf480CA==
+
 svelte-preprocess@^4.9.8:
   version "4.9.8"
   resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.9.8.tgz#fd40afebfb352f469beab289667485ebf0d811da"

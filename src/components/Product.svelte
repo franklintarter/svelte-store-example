@@ -1,4 +1,5 @@
 <script>
+	import ImageLoader from 'svelte-lazy-image-loader';
 	import currency from '$lib/currency';
 	import { addToCart } from '../store/cart';
 
@@ -11,7 +12,13 @@
 <div class="w-100 mt-12 flex justify-center">
 	<div>
 		<div class="bg-white shadow overflow-hidden sm:rounded-lg">
-			<img alt={name} src={image} />
+			<ImageLoader
+				url={image}
+				alt={name}
+				placeholderWidth="500px"
+				placeholderHeight="200px"
+				styling="margin-right: 1rem; padding: 1rem;"
+			/>
 			<div class="px-4 pt-5 sm:px-6">
 				<h3 class="text-lg leading-6 font-medium text-gray-900">
 					{name}
